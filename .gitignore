@@ -1,0 +1,71 @@
+# ==========================================
+# Python / Data Analysis Project .gitignore
+# ==========================================
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter & Colab Notebooks
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Google Colab specific
+.colab/
+*.csv
+*.xlsx
+*.xls
+*.json
+
+# Virtual environment
+env/
+venv/
+ENV/
+.venv/
+env.bak/
+venv.bak/
+
+# Cache
+*.log
+*.tmp
+*.cache/
+*.mypy_cache/
+*.pytest_cache/
+*.ipynb_checkpoints/
+__pycache__/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# VSCode & PyCharm
+.vscode/
+.idea/
+
+# Output folders
+/output/
+/data/
+/plots/
+/images/
+/figures/
+
+# Uploaded / downloaded data
+BlackFriday.csv
+*.zip
+*.tar.gz
+
+# Colab drive mounts
+/content/drive/
+drive/
+
+# Config or credentials
+*.env
+.env.*
+secrets.json
+token.json
+
+# Other unnecessary files
+*.bak
+*.swp
+*.swo
